@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.renesas.cdt.managedbuild.renesas.ccrl.release.configuration.1684288180">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.renesas.cdt.managedbuild.renesas.ccrl.release.configuration.1684288180" moduleId="org.eclipse.cdt.core.settings" name="Debug_SHUNT">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.renesas.cdt.managedbuild.renesas.core.RenesasCompilerAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.renesas.cdt.managedbuild.core.buildRunnerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="com.renesas.cdt.managedbuild.core.toolchainInfo">
+				<option id="toolchain.id" value="Renesas_CCRL"/>
+				<option id="toolchain.version" value="v1.12.01"/>
+				<option id="toolchain.enable" value="true"/>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="abs" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="Debugging Via E2-Lite" id="com.renesas.cdt.managedbuild.renesas.ccrl.release.configuration.1684288180" name="Debug_SHUNT" parent="com.renesas.cdt.managedbuild.renesas.ccrl.release.configuration">
+					<folderInfo id="com.renesas.cdt.managedbuild.renesas.ccrl.release.configuration.1684288180." name="/" resourcePath="">
+						<toolChain id="com.renesas.cdt.managedbuild.renesas.ccrl.release.toolChain.561671579" name="Renesas CCRL Toolchain" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.release.toolChain">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.PE" id="com.renesas.cdt.managedbuild.renesas.ccrl.base.targetPlatform.1514901634" isAbstract="false" name="targetPlatform" osList="win32" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/Metrology_NPJ_SM_1Ph2W_Skeleton}/Release" id="com.renesas.cdt.managedbuild.renesas.ccrl.base.builder.225658972" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.builder"/>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.smsasm.342912356" name="SMS Assembler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.smsasm"/>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.dsp.617150466" name="DSP Assembler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.dsp">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.dsp.option.dspSection.639406056" name="Section name (-dsp_section)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.dsp.option.dspSection" value="" valueType="string"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.common.1248803106" name="Common" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.common">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceCommand.134174082" name="Device Command" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceCommand" useByScannerDiscovery="false" value="R5F11TLG" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.cpu.695782620" name="Type of CPU core (-cpu)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.cpu" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.cpu.s3" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceName.1734848806" name="Device name" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceName" useByScannerDiscovery="false" value="R5F11TLG" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceFamily.497375203" name="Device Family" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceFamily" useByScannerDiscovery="false" value="RL78 - I1C" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.hasDsp.1067638968" name="Has DSP" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.hasDsp" useByScannerDiscovery="false" value="false" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.mirrorRegion.1684983567" name="Address range of the mirror destination area (-asmopt=-mirror_region)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.mirrorRegion" useByScannerDiscovery="false" value="F2000,FDEFF" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.noWarningNum.893222348" name="Warning message to suppress output (-no_warning_num)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.noWarningNum" useByScannerDiscovery="false" value="20174,20177,20550,20494,20186" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.outRcpc.587504190" name="Output common project file" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.outRcpc" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.hasFaa.1150302336" name="Has FAA" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.hasFaa" value="false" valueType="string"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.compiler.2003070103" name="Compiler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.compiler">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.g.598503080" name="Add debug information (-g)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.g" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.I.1689178270" name="Include file directories (-I)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.I" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/event}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/calibration}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/filter/headers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/metrologylibrary}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/compiler/CCRL}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/flash/fdl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/debug}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/flash}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/metrologylibrary/headers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/eeprom}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/libwrapper/metrology/filter}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/compiler/CCRL}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/filter/CCRL}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/flash/fdl/CCRL/incrl78}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/dc_detection}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/compiler}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/compiler}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/dc_detection/headers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/inst_read}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/debug/loadtest}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/filter}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/dc_detection/CCRL}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/startup}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/driver}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/flash/fdl/CCRL/librl78}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/storage}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/metrologylibrary/CCRL}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/dataflash}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/libwrapper/metrology}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/flash/fdl/CCRL}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/appwrapper}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/libwrapper}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.userBefore.317991749" name="User-defined options (added before all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.userBefore" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.userAfter.556009977" name="User-defined options (added after all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.userAfter" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.characterSet.1444323049" name="Character encoding (-character_set)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.characterSet" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.characterSet.utf8" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.D.805275502" name="Macro definition (-D)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.D" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="FEATURES_WQUR"/>
+									<listOptionValue builtIn="false" value="SHUNT"/>
+									<listOptionValue builtIn="false" value="__DEBUG"/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.memoryModel.622996926" name="Memory model (-memory_model)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.memoryModel" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.memoryModel.auto" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.goptimize.539107824" name="Outputs additional information for inter-module optimization (-goptimize)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.goptimize" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.signedChar.194179764" name="Sign of the char type (-signed_char)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.signedChar" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.signedChar.signed" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.mergeString.1349413873" name="Assign the same character string constant to the same area (-merge_string)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.mergeString" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.refsWithoutDeclaration.1917592217" name="Check function without prototype declaration (-refs_without_declaration)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.refsWithoutDeclaration" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.optimization.138138017" name="Level of optimization (-O)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.optimization" value="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.optimization.Ospeed" valueType="enumerated"/>
+								<inputType id="Base.Compiler.ccrl.C.inputType.149504434" name="Compiler InputType" superClass="Base.Compiler.ccrl.C.inputType"/>
+								<inputType id="Base.Compiler.ccrl.Cpp.inputType.14522348" name="Compiler Input CPP" superClass="Base.Compiler.ccrl.Cpp.inputType"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.assembler.1308425344" name="Assembler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.assembler">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.userBefore.1343821137" name="User-defined options (added before all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.userBefore" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.userAfter.479661670" name="User-defined options (added after all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.userAfter" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.characterSet.1032186393" name="Character encoding (-character_set)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.characterSet" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.characterSet.utf8" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.g.1364858657" name="Add debug information (-g)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.g" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.goptimize.775730494" name="Outputs additional information for inter-module optimization (-goptimize)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.goptimize" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<inputType id="Base.Assembler.ccrl.inputType.629779089" name="Assembler InputType" superClass="Base.Assembler.ccrl.inputType"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.linker.1190668602" name="Linker" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.linker">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugInfo.1696169495" name="Output debug information (-nodebug/-debug)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugInfo" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.entry.2118970109" name="Specify execution start address (-entry)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.entry" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.entryValue.462248339" name="Execution start address (-entry=&lt;symbol&gt;)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.entryValue" useByScannerDiscovery="false" value="_start" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugMonitorValue.682059693" name="Memory area (-debug_monitor=&lt;start address&gt;-&lt;end address&gt;)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugMonitorValue" useByScannerDiscovery="false" value="1FE00-1FFFF" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userOptByteValue.34835356" name="User option byte value (-user_opt_byte=&lt;value&gt;)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userOptByteValue" useByScannerDiscovery="false" value="7E3BE0" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.ocdbgValue.2053191018" name="On-chip debug control value (-ocdbg=&lt;value&gt;)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.ocdbgValue" useByScannerDiscovery="false" value="84" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.vectn.1008829534" name="Address setting for specified area of vector table (-vectn)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.vectn" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.nologo.874683115" name="Suppress copyright notice output (-logo/-nologo)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.nologo" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userBefore.1970406585" name="User-defined options (added before all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userBefore" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userAfter.94130138" name="User-defined options (added after all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userAfter" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.noneLinkageOrderList.1455397151" name="None(Linkage order list)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.noneLinkageOrderList" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/compiler/CCRL\cstart.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/compiler/CCRL\stkinit.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/calibration\calibration.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/dataflash\dataflash.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/debug\cmd.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/debug\command.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/debug/loadtest\load_test.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/eeprom\eeprom.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/inst_read\inst_read.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/startup\platform.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/startup\startup.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/storage\config_storage.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/storage\storage_em.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/appwrapper\wrp_app_iic.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/appwrapper\wrp_app_mcu.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/appwrapper\wrp_user_uart.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_cgc.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_cgc_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_crc.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_dsadc.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_dsadc_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_iica.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_iica_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_lvd.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_lvd_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_mac32bit.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_mac32bit_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_main.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_pclbuz.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_pclbuz_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_port.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_port_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_rtc.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_rtc_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_sau.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_sau_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_systeminit.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_tau.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_tau_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_wdt.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_wdt_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/libwrapper/metrology/filter\r_dscl_iirbiquad_config.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/libwrapper/metrology\wrp_em_adc.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/libwrapper/metrology\wrp_em_mcu.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/libwrapper/metrology\wrp_em_pulse.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/libwrapper/metrology\wrp_em_sw_property.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/libwrapper/metrology\wrp_em_timer.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/libwrapper/metrology\wrp_em_wdt.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c\main.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Program Files (x86)\Renesas\RL78\1_12_1\lib\rl78em4s.lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Program Files (x86)\Renesas\RL78\1_12_1\lib\rl78em4r.lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Program Files (x86)\Renesas\RL78\1_12_1\lib\malloc_n.lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/flash/fdl/CCRL/librl78/pfdl.lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/dc_detection/CCRL/ccrl_rl78i1c_sw_dc_correction v1.0.1.lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/filter/CCRL/r_dscl_iirbiquad_i32_onestage.lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/metrologylibrary/CCRL/230518_EMS2W_WQUR.lib}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.inputFile.447310991" name="Relocatable files, object files and library files (-input/-library/-binary)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.inputFile" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/flash/fdl/CCRL/librl78/pfdl.lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/dc_detection/CCRL/ccrl_rl78i1c_sw_dc_correction v1.0.1.lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/filter/CCRL/r_dscl_iirbiquad_i32_onestage.lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/metrologylibrary/CCRL/230518_EMS2W_WQUR.lib}&quot;"/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.optimize.272774967" name="Optimization type (-nooptimize/-optimize)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.optimize" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.optimize.noOptimize" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugMonitor.1415486568" name="Secure memory area of OCD monitor (-debug_monitor)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugMonitor" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userOptByte.425082310" name="Set user option byte (-user_opt_byte)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userOptByte" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.ocdbg.1144696552" name="Set enable/disable on-chip debug by link option (-ocdbg)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.ocdbg" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.RAMarea.188837326" name="RAM area without section (-self/-ocdtr/-ocdhpi)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.RAMarea" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.RAMarea.self" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.changeLinkOrder.1204569517" name="Change link order" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.changeLinkOrder" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.totalSize.2092473858" name="Displays the total sizes of sections (-total_size)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.totalSize" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.stack.657865721" name="Outputs a stack use information file (-stack)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.stack" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.changeMsgInfo.975404010" name="Change warning message to information message (-change_message=information)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.changeMsgInfo" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.changeMsgInfoValue.1740131459" name="Message number (all if empty) (-change_message=information=&lt;number&gt;)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.changeMsgInfoValue" useByScannerDiscovery="false" value="" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.show.1548731656" name="Output method (-show)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.show" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.show.all" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.section.1447958032" name="Sections (-start)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.section" useByScannerDiscovery="false" value="" valueType="string"/>
+								<inputType id="Base.Linker.ccrl.inputType.123705365" name="Linker InputType" superClass="Base.Linker.ccrl.inputType"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.converter.1143025828" name="Converter" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.converter">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.noLogo.741925423" name="Suppress copyright notice output (-logo/-nologo)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.noLogo" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.userBefore.658850601" name="User-defined options (added before all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.userBefore" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.userAfter.1835053476" name="User-defined options (added after all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.userAfter" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.outputHexFile.929022526" name="Output hex file" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.outputHexFile" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.faa.845374673" name="FAA Assembler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.faa">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.faa.option.dspSection.596837291" name="Section name (-dsp_section)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.faa.option.dspSection" value="" valueType="string"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.librarian.325441021" name="Library Generator" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.librarian"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.renesas.cdt.managedbuild.renesas.ccrl.release.configuration.1684288180.1207709405" name="em_integrator.h" rcbsApplicability="disable" resourcePath="src/rl78i1c/libwrapper/metrology/integrator/em_integrator.h" toolsToInvoke="">
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1354150705" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1313112397" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.80435009" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<sourceEntries>
+						<entry excluding="src/rl78i1c/libwrapper/metrology/integrator/em_integrator.h|src/rl78i1c/libwrapper/metrology/integrator/em_integrator.c|src/rl78i1c/libwrapper/metrology/integrator/em_integrator_config.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="com.renesas.cdt.managedbuild.core.boardInfo"/>
+		</cconfiguration>
+		<cconfiguration id="com.renesas.cdt.managedbuild.renesas.ccrl.release.configuration.1684288180.1670713124">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.renesas.cdt.managedbuild.renesas.ccrl.release.configuration.1684288180.1670713124" moduleId="org.eclipse.cdt.core.settings" name="Release_SHUNT">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.renesas.cdt.managedbuild.renesas.core.RenesasCompilerAssemblerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.renesas.cdt.managedbuild.core.buildRunnerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="com.renesas.cdt.managedbuild.core.toolchainInfo">
+				<option id="toolchain.id" value="Renesas_CCRL"/>
+				<option id="toolchain.version" value="v1.12.01"/>
+				<option id="toolchain.enable" value="true"/>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="abs" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" description="Release - No Debugging" id="com.renesas.cdt.managedbuild.renesas.ccrl.release.configuration.1684288180.1670713124" name="Release_SHUNT" parent="com.renesas.cdt.managedbuild.renesas.ccrl.release.configuration">
+					<folderInfo id="com.renesas.cdt.managedbuild.renesas.ccrl.release.configuration.1684288180.1670713124." name="/" resourcePath="">
+						<toolChain id="com.renesas.cdt.managedbuild.renesas.ccrl.release.toolChain.1896932229" name="Renesas CCRL Toolchain" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.release.toolChain">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.PE" id="com.renesas.cdt.managedbuild.renesas.ccrl.base.targetPlatform.896533257" isAbstract="false" name="targetPlatform" osList="win32" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/Metrology_NPJ_SM_1Ph2W_Skeleton}/Release" id="com.renesas.cdt.managedbuild.renesas.ccrl.base.builder.271843529" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.builder"/>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.smsasm.1212228638" name="SMS Assembler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.smsasm"/>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.dsp.180977676" name="DSP Assembler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.dsp">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.dsp.option.dspSection.1058788349" name="Section name (-dsp_section)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.dsp.option.dspSection" value="" valueType="string"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.common.1204847629" name="Common" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.common">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceCommand.881685200" name="Device Command" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceCommand" useByScannerDiscovery="false" value="R5F11TLG" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.cpu.491265086" name="Type of CPU core (-cpu)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.cpu" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.cpu.s3" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceName.726348844" name="Device name" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceName" useByScannerDiscovery="false" value="R5F11TLG" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceFamily.772500758" name="Device Family" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.deviceFamily" useByScannerDiscovery="false" value="RL78 - I1C" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.hasDsp.237396230" name="Has DSP" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.hasDsp" useByScannerDiscovery="false" value="false" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.mirrorRegion.1327969225" name="Address range of the mirror destination area (-asmopt=-mirror_region)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.mirrorRegion" useByScannerDiscovery="false" value="F2000,FDEFF" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.noWarningNum.943384668" name="Warning message to suppress output (-no_warning_num)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.noWarningNum" useByScannerDiscovery="false" value="20174,20177,20550,20494,20186" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.outRcpc.1208737379" name="Output common project file" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.outRcpc" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.hasFaa.1746456036" name="Has FAA" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.common.option.hasFaa" value="false" valueType="string"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.compiler.335226125" name="Compiler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.compiler">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.g.232726520" name="Add debug information (-g)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.g" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.I.1940277902" name="Include file directories (-I)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.I" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/event}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/calibration}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/filter/headers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/metrologylibrary}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/compiler/CCRL}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/flash/fdl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/debug}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/flash}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/metrologylibrary/headers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/eeprom}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/libwrapper/metrology/filter}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/compiler/CCRL}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/filter/CCRL}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/flash/fdl/CCRL/incrl78}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/dc_detection}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/compiler}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/compiler}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/dc_detection/headers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/inst_read}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/debug/loadtest}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/filter}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/dc_detection/CCRL}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/startup}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/driver}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/flash/fdl/CCRL/librl78}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/storage}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/metrologylibrary/CCRL}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/application/dataflash}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/libwrapper/metrology}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/flash/fdl/CCRL}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/appwrapper}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/rl78i1c/libwrapper}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.userBefore.904337360" name="User-defined options (added before all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.userBefore" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.userAfter.528782419" name="User-defined options (added after all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.userAfter" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.characterSet.1198949084" name="Character encoding (-character_set)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.characterSet" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.characterSet.utf8" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.D.1989559538" name="Macro definition (-D)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.D" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="FEATURES_WQUR"/>
+									<listOptionValue builtIn="false" value="__DEBUG"/>
+									<listOptionValue builtIn="false" value="SHUNT"/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.memoryModel.317381037" name="Memory model (-memory_model)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.memoryModel" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.memoryModel.auto" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.goptimize.1322498355" name="Outputs additional information for inter-module optimization (-goptimize)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.goptimize" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.signedChar.148295985" name="Sign of the char type (-signed_char)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.signedChar" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.signedChar.signed" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.mergeString.254327664" name="Assign the same character string constant to the same area (-merge_string)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.mergeString" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.refsWithoutDeclaration.1184198692" name="Check function without prototype declaration (-refs_without_declaration)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.refsWithoutDeclaration" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.optimization.1422930257" name="Level of optimization (-O)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.optimization" value="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.optimization.Ospeed" valueType="enumerated"/>
+								<inputType id="Base.Compiler.ccrl.C.inputType.1295812149" name="Compiler InputType" superClass="Base.Compiler.ccrl.C.inputType"/>
+								<inputType id="Base.Compiler.ccrl.Cpp.inputType.1687328506" name="Compiler Input CPP" superClass="Base.Compiler.ccrl.Cpp.inputType"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.assembler.1927339574" name="Assembler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.assembler">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.userBefore.1255590187" name="User-defined options (added before all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.userBefore" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.userAfter.826481730" name="User-defined options (added after all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.userAfter" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.characterSet.1519181778" name="Character encoding (-character_set)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.characterSet" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.characterSet.utf8" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.g.1968713225" name="Add debug information (-g)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.g" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.goptimize.1215507798" name="Outputs additional information for inter-module optimization (-goptimize)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.assembler.option.goptimize" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<inputType id="Base.Assembler.ccrl.inputType.170998311" name="Assembler InputType" superClass="Base.Assembler.ccrl.inputType"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.linker.374169540" name="Linker" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.linker">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugInfo.1269343549" name="Output debug information (-nodebug/-debug)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugInfo" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.entry.1480960632" name="Specify execution start address (-entry)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.entry" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.entryValue.269428832" name="Execution start address (-entry=&lt;symbol&gt;)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.entryValue" useByScannerDiscovery="false" value="_start" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugMonitorValue.1836655351" name="Memory area (-debug_monitor=&lt;start address&gt;-&lt;end address&gt;)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugMonitorValue" useByScannerDiscovery="false" value="1FE00-1FFFF" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userOptByteValue.1819284888" name="User option byte value (-user_opt_byte=&lt;value&gt;)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userOptByteValue" useByScannerDiscovery="false" value="7E3BE0" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.ocdbgValue.1710343165" name="On-chip debug control value (-ocdbg=&lt;value&gt;)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.ocdbgValue" useByScannerDiscovery="false" value="04" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.vectn.1942749357" name="Address setting for specified area of vector table (-vectn)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.vectn" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.nologo.1508875477" name="Suppress copyright notice output (-logo/-nologo)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.nologo" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userBefore.180623144" name="User-defined options (added before all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userBefore" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userAfter.1996170619" name="User-defined options (added after all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userAfter" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.noneLinkageOrderList.1392478728" name="None(Linkage order list)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.noneLinkageOrderList" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/compiler/CCRL\cstart.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/compiler/CCRL\stkinit.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/calibration\calibration.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/dataflash\dataflash.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/debug\cmd.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/debug\command.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/debug/loadtest\load_test.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/eeprom\eeprom.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/inst_read\inst_read.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/startup\platform.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/startup\startup.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/storage\config_storage.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/application/storage\storage_em.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/appwrapper\wrp_app_iic.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/appwrapper\wrp_app_mcu.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/appwrapper\wrp_user_uart.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_cgc.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_cgc_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_crc.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_dsadc.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_dsadc_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_iica.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_iica_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_lvd.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_lvd_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_mac32bit.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_mac32bit_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_main.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_pclbuz.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_pclbuz_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_port.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_port_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_rtc.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_rtc_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_sau.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_sau_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_systeminit.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_tau.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_tau_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_wdt.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/driver\r_cg_wdt_user.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/libwrapper/metrology/filter\r_dscl_iirbiquad_config.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/libwrapper/metrology\wrp_em_adc.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/libwrapper/metrology\wrp_em_mcu.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/libwrapper/metrology\wrp_em_pulse.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/libwrapper/metrology\wrp_em_sw_property.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/libwrapper/metrology\wrp_em_timer.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c/libwrapper/metrology\wrp_em_wdt.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;.\src/rl78i1c\main.obj&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Program Files (x86)\Renesas\RL78\1_12_1\lib\rl78em4s.lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Program Files (x86)\Renesas\RL78\1_12_1\lib\rl78em4r.lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Program Files (x86)\Renesas\RL78\1_12_1\lib\malloc_n.lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/flash/fdl/CCRL/librl78/pfdl.lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/dc_detection/CCRL/ccrl_rl78i1c_sw_dc_correction v1.0.1.lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/filter/CCRL/r_dscl_iirbiquad_i32_onestage.lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/metrologylibrary/CCRL/230518_EMS2W_WQUR.lib}&quot;"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.inputFile.524652649" name="Relocatable files, object files and library files (-input/-library/-binary)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.inputFile" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/flash/fdl/CCRL/librl78/pfdl.lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/dc_detection/CCRL/ccrl_rl78i1c_sw_dc_correction v1.0.1.lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/filter/CCRL/r_dscl_iirbiquad_i32_onestage.lib}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/shared/metrology/metrologylibrary/CCRL/230518_EMS2W_WQUR.lib}&quot;"/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.optimize.1820174469" name="Optimization type (-nooptimize/-optimize)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.optimize" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.optimize.noOptimize" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugMonitor.1987645481" name="Secure memory area of OCD monitor (-debug_monitor)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.debugMonitor" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userOptByte.355163818" name="Set user option byte (-user_opt_byte)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.userOptByte" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.ocdbg.1890236036" name="Set enable/disable on-chip debug by link option (-ocdbg)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.ocdbg" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.RAMarea.577263027" name="RAM area without section (-self/-ocdtr/-ocdhpi)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.RAMarea" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.RAMarea.self" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.changeLinkOrder.966784711" name="Change link order" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.changeLinkOrder" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.totalSize.2015242073" name="Displays the total sizes of sections (-total_size)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.totalSize" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.stack.617132887" name="Outputs a stack use information file (-stack)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.stack" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.changeMsgInfo.992176302" name="Change warning message to information message (-change_message=information)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.changeMsgInfo" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.changeMsgInfoValue.1554623685" name="Message number (all if empty) (-change_message=information=&lt;number&gt;)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.changeMsgInfoValue" useByScannerDiscovery="false" value="" valueType="string"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.show.1164198028" name="Output method (-show)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.show" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.show.all" valueType="enumerated"/>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.section.1260188091" name="Sections (-start)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.linker.option.section" useByScannerDiscovery="false" value="" valueType="string"/>
+								<inputType id="Base.Linker.ccrl.inputType.1280699926" name="Linker InputType" superClass="Base.Linker.ccrl.inputType"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.converter.295143812" name="Converter" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.converter">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.noLogo.1661465152" name="Suppress copyright notice output (-logo/-nologo)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.noLogo" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.userBefore.970770946" name="User-defined options (added before all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.userBefore" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.userAfter.1782980015" name="User-defined options (added after all specified options)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.userAfter" useByScannerDiscovery="false" valueType="stringList">
+									<listOptionValue builtIn="false" value=""/>
+								</option>
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.outputHexFile.1101764006" name="Output hex file" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.converter.option.outputHexFile" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.faa.119333392" name="FAA Assembler" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.faa">
+								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.faa.option.dspSection.21628285" name="Section name (-dsp_section)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.faa.option.dspSection" value="" valueType="string"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.renesas.ccrl.base.librarian.1188598658" name="Library Generator" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.base.librarian"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.renesas.cdt.managedbuild.renesas.ccrl.release.configuration.1684288180.1670713124.1237273545" name="em_integrator.h" rcbsApplicability="disable" resourcePath="src/rl78i1c/libwrapper/metrology/integrator/em_integrator.h" toolsToInvoke="">
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.475099371" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1161009875" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.443245600" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<sourceEntries>
+						<entry excluding="src/rl78i1c/libwrapper/metrology/integrator/em_integrator.h|src/rl78i1c/libwrapper/metrology/integrator/em_integrator.c|src/rl78i1c/libwrapper/metrology/integrator/em_integrator_config.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="com.renesas.cdt.managedbuild.core.boardInfo"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Metrology_NPJ_SM_1Ph2W_Skeleton.com.renesas.cdt.managedbuild.renesas.ccrl.projectType.1621627183" name="Executable" projectType="com.renesas.cdt.managedbuild.renesas.ccrl.projectType"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+		<project-mappings>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cHeader" language="com.renesas.cdt.managedbuild.renesas.core.extendc"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cSource" language="com.renesas.cdt.managedbuild.renesas.core.extendc"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxHeader" language="com.renesas.cdt.managedbuild.renesas.core.extendcpp"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxSource" language="com.renesas.cdt.managedbuild.renesas.core.extendcpp"/>
+		</project-mappings>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/Metrology_NPJ_SM_1Ph2W_Skeleton"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
