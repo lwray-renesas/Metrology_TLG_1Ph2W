@@ -87,7 +87,7 @@ Macro definitions
 #endif
 
     /* This option below will do detect DC imunity on phase 1 sample */
-    #define METER_ENABLE_DC_IMUNITY_DETECTION_ON_SAMPLE     (1)
+    #define METER_ENABLE_DC_IMUNITY_DETECTION_ON_SAMPLE     (0)
 
 /******************************************************************************
 *   EM Core Software Block (SW Block)
@@ -201,14 +201,14 @@ Macro definitions
     *   ADC Wrapper Configuration for Settings & I/F mapping
     ***************************************************************************/    
     /* Settings */
+    #define EM_ADC_DRIVER_CHANNEL_VOLTAGE                       DSADCHANNEL3       /* AD Driver Voltage Channel ID         */
+    #define EM_ADC_DRIVER_CHANNEL_PHASE                         DSADCHANNEL1         /* AD Driver Voltage Channel ID         */
+    #define EM_ADC_DRIVER_CHANNEL_NEUTRAL                       DSADCHANNEL0       /* AD Driver Voltage Channel ID         */
+
     /* Channel Name Specification */
     #define EM_ADC_CURRENT_DRIVER_CHANNEL_OPTIMIZATION_VOLTAGE  3                               /* Match this with definitions above */
     #define EM_ADC_CURRENT_DRIVER_CHANNEL_OPTIMIZATION_PHASE    1                               /* Match this with definitions above */
     #define EM_ADC_CURRENT_DRIVER_CHANNEL_OPTIMIZATION_NEUTRAL  0                               /* Match this with definitions above */
-
-    #define EM_ADC_DRIVER_CHANNEL_VOLTAGE                       (dsad_channel_t)(DSADCHANNEL0+EM_ADC_CURRENT_DRIVER_CHANNEL_OPTIMIZATION_VOLTAGE)       /* AD Driver Voltage Channel ID         */
-    #define EM_ADC_DRIVER_CHANNEL_PHASE                         (dsad_channel_t)(DSADCHANNEL0+EM_ADC_CURRENT_DRIVER_CHANNEL_OPTIMIZATION_PHASE)         /* AD Driver Voltage Channel ID         */
-    #define EM_ADC_DRIVER_CHANNEL_NEUTRAL                       (dsad_channel_t)(DSADCHANNEL0+EM_ADC_CURRENT_DRIVER_CHANNEL_OPTIMIZATION_NEUTRAL)       /* AD Driver Voltage Channel ID         */
 
     #if (EM_PLATFORM_PROPERTY_TARGET_AC_SOURCE_FREQUENCY == 50)
     #define EM_ADC_DRIVER_PHASE_SHIFT_STEP                      (0.012f)                        /* AD Driver Phase step */
@@ -220,20 +220,20 @@ Macro definitions
 
     /* Phase Gain Specification */
     #define EM_ADC_GAIN_PHASE_LEVEL0                            (GAIN_X1)                      /* AD Gain Phase Level 0 (lowest) */
-    #define EM_ADC_GAIN_PHASE_LEVEL1                            (GAIN_X1)                      /* AD Gain Phase Level 1 */
+    #define EM_ADC_GAIN_PHASE_LEVEL1                            (GAIN_X2)                      /* AD Gain Phase Level 1 */
     /* Neutral Gain Specification */
     #define EM_ADC_GAIN_NEUTRAL_LEVEL0                          (GAIN_X1 )                      /* AD Gain Neutral Level 0 (lowest) */
-    #define EM_ADC_GAIN_NEUTRAL_LEVEL1                          (GAIN_X1 )                      /* AD Gain Neutral Level 1 */
+    #define EM_ADC_GAIN_NEUTRAL_LEVEL1                          (GAIN_X2 )                      /* AD Gain Neutral Level 1 */
     /* Integrator Enable/Disable */
-    #define EM_ADC_INTEGRATOR_CHANNEL_PHASE_ENABLE              (1)                             /* Enable/Disable ADC Integrator for Phase channel */
+    #define EM_ADC_INTEGRATOR_CHANNEL_PHASE_ENABLE              (0)                             /* Enable/Disable ADC Integrator for Phase channel */
     #define EM_ADC_INTEGRATOR_CHANNEL_NEUTRAL_ENABLE            (0)                             /* Enable/Disable ADC Integrator for Neutral channel */
     /*
      * Software Phase Adjustment (by ADC ISR) for 3 channels
      * Set as 0 if not want to delay
      */
     #define EM_ADC_DELAY_STEP_VOLTAGE_CHANNEL                   (0)                             /* Step for phase adjustment of voltage channel */
-    #define EM_ADC_DELAY_STEP_PHASE_CHANNEL                     (5)                             /* Step for phase adjustment of phase channel */
-    #define EM_ADC_DELAY_STEP_NEUTRAL_CHANNEL                   (1)                             /* Step for phase adjustment of neutral channel */
+    #define EM_ADC_DELAY_STEP_PHASE_CHANNEL                     (0)                             /* Step for phase adjustment of phase channel */
+    #define EM_ADC_DELAY_STEP_NEUTRAL_CHANNEL                   (0)                             /* Step for phase adjustment of neutral channel */
     /* I/Fs mapping
      *      Macro Name / I/Fs                                   Setting/Description */
     #define EM_ADC_DriverInit()                                 {;}                                     /* AD Driver Initialization         */

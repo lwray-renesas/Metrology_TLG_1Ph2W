@@ -34,26 +34,26 @@ Macro definitions
 *   Platform Default Calibration Informations
 *******************************************************************************/
 /* Meter Constant */
-#define EM_CALIB_DEFAULT_SAMPLING_FREQUENCY                     3898.000000                 /* Actual sampling frequency of the meter    */
+#define EM_CALIB_DEFAULT_SAMPLING_FREQUENCY                     3902.000000                 /* Actual sampling frequency of the meter    */
 
 /* Co-efficient */
-#define EM_CALIB_DEFAULT_COEFF_VRMS                             (13212.6113      )          /* VRMS Co-efficient  At Gain 1.0f           */
-#define EM_CALIB_DEFAULT_COEFF_I1RMS                            (79681.9298      )          /* I1RMS Co-efficient At Gain 1.0f           */
+#define EM_CALIB_DEFAULT_COEFF_VRMS                             (13078.7652      )          /* VRMS Co-efficient  At Gain 1.0f           */
+#define EM_CALIB_DEFAULT_COEFF_I1RMS                            (71486.4435      )          /* I1RMS Co-efficient At Gain 1.0f           */
 #define EM_CALIB_DEFAULT_COEFF_I2RMS                            (62415.9454      )          /* I2RMS Co-efficient At Gain 1.0f           */
-#define EM_CALIB_DEFAULT_COEFF_ACTIVE_POWER                     (1052806342.4862 )          /* Active Power Co-efficient At Gain 1.0f    */
-#define EM_CALIB_DEFAULT_COEFF_REACTIVE_POWER                   (1052806342.4862 )          /* Reactive Power Co-efficient At Gain 1.0f  */
-#define EM_CALIB_DEFAULT_COEFF_APPARENT_POWER                   (1052806342.4862 )          /* Apparent Power Co-efficient At Gain 1.0f  */
+#define EM_CALIB_DEFAULT_COEFF_ACTIVE_POWER                     (934949605.9560  )          /* Active Power Co-efficient At Gain 1.0f    */
+#define EM_CALIB_DEFAULT_COEFF_REACTIVE_POWER                   (934949605.9560  )          /* Reactive Power Co-efficient At Gain 1.0f  */
+#define EM_CALIB_DEFAULT_COEFF_APPARENT_POWER                   (934949605.9560  )          /* Apparent Power Co-efficient At Gain 1.0f  */
 #define EM_CALIB_DEFAULT_COEFF_ACTIVE_POWER2                    (824669696.7631  )          /* Active Power Co-efficient At Gain 1.0f    */
 #define EM_CALIB_DEFAULT_COEFF_REACTIVE_POWER2                  (824669696.7631  )          /* Reactive Power Co-efficient At Gain 1.0f  */
 #define EM_CALIB_DEFAULT_COEFF_APPARENT_POWER2                  (824669696.7631  )          /* Apparent Power Co-efficient At Gain 1.0f  */
 
 /* DSAD Gain */
-#define EM_CALIB_DEFAULT_PHASE_GAIN                             (32)
-#define EM_CALIB_DEFAULT_NEUTRAL_GAIN                           (2)
+#define EM_CALIB_DEFAULT_PHASE_GAIN                             (1)
+#define EM_CALIB_DEFAULT_NEUTRAL_GAIN                           (1)
 
 /* SW Phase Correction */
 /* Phase Gain Phase Shift Angle */
-#define EM_CALIB_DEFAULT_GAIN_PHASE_LEVEL0_PHASE_SHIFT          (-2.804991f )               /* Phase Gain Level 0 Phase Shift Angle (in degree) */
+#define EM_CALIB_DEFAULT_GAIN_PHASE_LEVEL0_PHASE_SHIFT          (-0.484991f )               /* Phase Gain Level 0 Phase Shift Angle (in degree) */
 #define EM_CALIB_DEFAULT_GAIN_PHASE_LEVEL1_PHASE_SHIFT          (-2.805976f )               /* Phase Gain Level 1 Phase Shift Angle (in degree) */
 /* Neutral Gain Phase Shift Angle */
 #define EM_CALIB_DEFAULT_GAIN_NEUTRAL_LEVEL0_PHASE_SHIFT        (-2.826520f )               /* Neutral Gain Level 0 Phase Shift Angle (in degree) */

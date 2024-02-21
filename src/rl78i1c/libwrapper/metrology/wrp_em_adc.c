@@ -394,7 +394,7 @@ Private global variables and functions
 			/* Read all dsad result to buffer */
 			EM_ADC_DRIVER_READ_ALL();
 
-		    g_wrp_adc_samples.i1 = g_wrp_adc_samples.i1 * (-1); /* Change direction*/
+		    g_wrp_adc_samples.v = g_wrp_adc_samples.v * (-1);
 
 			EM_ADC_DoNoisyBitMasking();
 
