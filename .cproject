@@ -89,6 +89,7 @@
 								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.characterSet.1444323049" name="Character encoding (-character_set)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.characterSet" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.characterSet.utf8" valueType="enumerated"/>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.D.805275502" name="Macro definition (-D)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.D" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="FEATURES_WQUR"/>
+									<listOptionValue builtIn="false" value="METER_ENABLE_MEASURE_CPU_LOAD"/>
 									<listOptionValue builtIn="false" value="SHUNT"/>
 									<listOptionValue builtIn="false" value="__DEBUG"/>
 								</option>
@@ -328,8 +329,9 @@
 								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.characterSet.1198949084" name="Character encoding (-character_set)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.characterSet" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.characterSet.utf8" valueType="enumerated"/>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.D.1989559538" name="Macro definition (-D)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.D" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="FEATURES_WQUR"/>
-									<listOptionValue builtIn="false" value="__DEBUG"/>
+									<listOptionValue builtIn="false" value="METER_ENABLE_MEASURE_CPU_LOAD"/>
 									<listOptionValue builtIn="false" value="SHUNT"/>
+									<listOptionValue builtIn="false" value="__DEBUG"/>
 								</option>
 								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.memoryModel.317381037" name="Memory model (-memory_model)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.memoryModel" useByScannerDiscovery="false" value="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.memoryModel.auto" valueType="enumerated"/>
 								<option id="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.goptimize.1322498355" name="Outputs additional information for inter-module optimization (-goptimize)" superClass="com.renesas.cdt.managedbuild.renesas.ccrl.compiler.option.goptimize" useByScannerDiscovery="false" value="true" valueType="boolean"/>

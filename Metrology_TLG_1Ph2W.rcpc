@@ -238,7 +238,7 @@
           <Option>-I "${ProjDirPath}\..\..\..\..\..\..\..\..\..\Dev\Temporary\SCRATCH\${ProjName}\src\rl78i1c\appwrapper"</Option>
           <Option>-I "${ProjDirPath}\..\..\..\..\..\..\..\..\..\Dev\Temporary\SCRATCH\${ProjName}\src\rl78i1c\libwrapper"</Option>
           <Option>-I "${ProjDirPath}\..\..\..\..\..\..\..\..\..\Dev\Temporary\SCRATCH\${ProjName}\src\shared\metrology"</Option>
-          <Option>-D FEATURES_WQUR,SHUNT,__DEBUG</Option>
+          <Option>-D FEATURES_WQUR,METER_ENABLE_MEASURE_CPU_LOAD,SHUNT,__DEBUG</Option>
           <Option>-refs_without_declaration</Option>
           <Option>-character_set=utf8</Option>
           <Option>-g</Option>
@@ -391,6 +391,7 @@
           <IncludePathForC>"${ProjDirPath}\..\..\..\..\..\..\..\..\..\Dev\Temporary\SCRATCH\${ProjName}\src\rl78i1c\libwrapper"</IncludePathForC>
           <IncludePathForC>"${ProjDirPath}\..\..\..\..\..\..\..\..\..\Dev\Temporary\SCRATCH\${ProjName}\src\shared\metrology"</IncludePathForC>
           <MacroForC>FEATURES_WQUR</MacroForC>
+          <MacroForC>METER_ENABLE_MEASURE_CPU_LOAD</MacroForC>
           <MacroForC>SHUNT</MacroForC>
           <MacroForC>__DEBUG</MacroForC>
         </CommonOptions>
@@ -439,7 +440,7 @@
           <Option>-I "${ProjDirPath}\..\..\..\..\..\..\..\..\..\Dev\Temporary\SCRATCH\${ProjName}\src\rl78i1c\appwrapper"</Option>
           <Option>-I "${ProjDirPath}\..\..\..\..\..\..\..\..\..\Dev\Temporary\SCRATCH\${ProjName}\src\rl78i1c\libwrapper"</Option>
           <Option>-I "${ProjDirPath}\..\..\..\..\..\..\..\..\..\Dev\Temporary\SCRATCH\${ProjName}\src\shared\metrology"</Option>
-          <Option>-D FEATURES_WQUR,__DEBUG,SHUNT</Option>
+          <Option>-D FEATURES_WQUR,METER_ENABLE_MEASURE_CPU_LOAD,SHUNT,__DEBUG</Option>
           <Option>-refs_without_declaration</Option>
           <Option>-character_set=utf8</Option>
           <Option>-g</Option>
@@ -592,8 +593,9 @@
           <IncludePathForC>"${ProjDirPath}\..\..\..\..\..\..\..\..\..\Dev\Temporary\SCRATCH\${ProjName}\src\rl78i1c\libwrapper"</IncludePathForC>
           <IncludePathForC>"${ProjDirPath}\..\..\..\..\..\..\..\..\..\Dev\Temporary\SCRATCH\${ProjName}\src\shared\metrology"</IncludePathForC>
           <MacroForC>FEATURES_WQUR</MacroForC>
-          <MacroForC>__DEBUG</MacroForC>
+          <MacroForC>METER_ENABLE_MEASURE_CPU_LOAD</MacroForC>
           <MacroForC>SHUNT</MacroForC>
+          <MacroForC>__DEBUG</MacroForC>
         </CommonOptions>
       </BuildMode>
     </BuildOptions>
