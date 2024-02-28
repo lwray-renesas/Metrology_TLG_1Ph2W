@@ -400,7 +400,7 @@ Private global variables and functions
 			/* Read all dsad result to buffer */
 			EM_ADC_DRIVER_READ_ALL();
 
-		    g_wrp_adc_samples.v = g_wrp_adc_samples.v * (-1);
+		    g_wrp_adc_samples.v = g_wrp_adc_samples.v * (-1); /* Phase shift by 180 degrees the Neutral channel voltage - not needed for live sampling*/
 		    g_wrp_adc_samples.i1 = g_wrp_adc_samples.i1 * phase_inversion_flag;
 		    g_wrp_adc_samples.i2 = g_wrp_adc_samples.i2 * neutral_inversion_flag;
 
