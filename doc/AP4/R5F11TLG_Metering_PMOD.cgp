@@ -8,7 +8,11 @@
     </DataElement>
     <DataElement key="pior25_macroname" value="">
     </DataElement>
+    <DataElement key="pior20" value="0">
+    </DataElement>
     <DataElement key="pior25" value="0">
+    </DataElement>
+    <DataElement key="pior31" value="0">
     </DataElement>
     <DataElement key="pior07_pior01" value="4">
     </DataElement>
@@ -22,15 +26,9 @@
     </DataElement>
     <DataElement key="pior32_macroname" value="">
     </DataElement>
-    <DataElement key="pior21" value="0">
-    </DataElement>
     <DataElement key="pior26" value="0">
     </DataElement>
     <DataElement key="pior24_macroname" value="">
-    </DataElement>
-    <DataElement key="pior21_macroname" value="">
-    </DataElement>
-    <DataElement key="pior10" value="0">
     </DataElement>
     <DataElement key="pior31_macroname" value="">
     </DataElement>
@@ -50,19 +48,19 @@
     </DataElement>
     <DataElement key="piorfixed" value="True">
     </DataElement>
-    <DataElement key="pior03" value="0">
+    <DataElement key="pior00" value="0">
     </DataElement>
     <DataElement key="pior11" value="0">
     </DataElement>
     <DataElement key="pior01" value="0">
     </DataElement>
-    <DataElement key="pior31" value="0">
+    <DataElement key="pior10" value="0">
     </DataElement>
-    <DataElement key="pior00" value="0">
+    <DataElement key="pior21" value="0">
     </DataElement>
     <DataElement key="pior13" value="0">
     </DataElement>
-    <DataElement key="pior20" value="0">
+    <DataElement key="pior03" value="0">
     </DataElement>
     <DataElement key="pior22_macroname" value="">
     </DataElement>
@@ -70,13 +68,15 @@
     </DataElement>
     <DataElement key="pior01_macroname" value="">
     </DataElement>
+    <DataElement key="pior26_macroname" value="">
+    </DataElement>
     <DataElement key="pior11_macroname" value="">
     </DataElement>
     <DataElement key="pior04" value="0">
     </DataElement>
     <DataElement key="pior07_pior00_macroname" value="">
     </DataElement>
-    <DataElement key="pior26_macroname" value="">
+    <DataElement key="pior21_macroname" value="">
     </DataElement>
     <DataElement key="pior13_macroname" value="">
     </DataElement>
@@ -308,15 +308,15 @@
         </DataElement>
       </SerializableData>
       <SerializableData name="Interrput_54">
-        <DataElement key="InusedAs" value="INTLVDVBAT">
+        <DataElement key="InusedAs" value="">
         </DataElement>
       </SerializableData>
       <SerializableData name="Interrput_55">
-        <DataElement key="InusedAs" value="INTLVDVRTC">
+        <DataElement key="InusedAs" value="">
         </DataElement>
       </SerializableData>
       <SerializableData name="Interrput_56">
-        <DataElement key="InusedAs" value="INTLVDEXLVD">
+        <DataElement key="InusedAs" value="">
         </DataElement>
       </SerializableData>
       <SerializableData name="Interrput_57">
@@ -556,7 +556,7 @@
         </DataElement>
       </SerializableData>
       <SerializableData name="PinNumber_12">
-        <DataElement key="InusedAs" value="LVD##VRTC">
+        <DataElement key="InusedAs" value="">
         </DataElement>
       </SerializableData>
       <SerializableData name="PinNumber_13">
@@ -572,7 +572,7 @@
         </DataElement>
       </SerializableData>
       <SerializableData name="PinNumber_16">
-        <DataElement key="InusedAs" value="LVD##VBAT,DSADC##VBAT">
+        <DataElement key="InusedAs" value="DSADC##VBAT">
         </DataElement>
       </SerializableData>
       <SerializableData name="PinNumber_17">
@@ -756,7 +756,7 @@
         </DataElement>
       </SerializableData>
       <SerializableData name="PinNumber_62">
-        <DataElement key="InusedAs" value="LVD##EXLVD">
+        <DataElement key="InusedAs" value="">
         </DataElement>
       </SerializableData>
       <SerializableData name="PinNumber_63">
@@ -2662,7 +2662,7 @@
     </DataElement>
     <DataElement key="GB" value="True">
     </DataElement>
-    <DataElement key="GBValue" value="7E3BA2">
+    <DataElement key="GBValue" value="7EFFA2">
     </DataElement>
     <DataElement key="GTrace" value="Error">
     </DataElement>
@@ -2692,7 +2692,7 @@
     </DataElement>
     <DataElement key="df_waittime" value="1">
     </DataElement>
-    <DataElement key="LVD_EXLVD" value="true">
+    <DataElement key="LVD_EXLVD" value="false">
     </DataElement>
     <DataElement key="ADC_ADPC_VALUE" value="unused">
     </DataElement>
@@ -7292,7 +7292,7 @@
             </DataElement>
             <DataElement key="text" value="R_LVD_Start_VBAT">
             </DataElement>
-            <DataElement key="inuse" value="Locked">
+            <DataElement key="inuse" value="Unused">
             </DataElement>
           </SerializableData>
           <SerializableData name="R_LVD_Stop_VBAT">
@@ -7300,7 +7300,7 @@
             </DataElement>
             <DataElement key="text" value="R_LVD_Stop_VBAT">
             </DataElement>
-            <DataElement key="inuse" value="Locked">
+            <DataElement key="inuse" value="Unused">
             </DataElement>
           </SerializableData>
           <SerializableData name="R_LVD_Start_VRTC">
@@ -7308,7 +7308,7 @@
             </DataElement>
             <DataElement key="text" value="R_LVD_Start_VRTC">
             </DataElement>
-            <DataElement key="inuse" value="Locked">
+            <DataElement key="inuse" value="Unused">
             </DataElement>
           </SerializableData>
           <SerializableData name="R_LVD_Stop_VRTC">
@@ -7316,7 +7316,7 @@
             </DataElement>
             <DataElement key="text" value="R_LVD_Stop_VRTC">
             </DataElement>
-            <DataElement key="inuse" value="Locked">
+            <DataElement key="inuse" value="Unused">
             </DataElement>
           </SerializableData>
           <SerializableData name="R_LVD_Start_EXLVD">
@@ -7324,7 +7324,7 @@
             </DataElement>
             <DataElement key="text" value="R_LVD_Start_EXLVD">
             </DataElement>
-            <DataElement key="inuse" value="Locked">
+            <DataElement key="inuse" value="Unused">
             </DataElement>
           </SerializableData>
           <SerializableData name="R_LVD_Stop_EXLVD">
@@ -7332,7 +7332,7 @@
             </DataElement>
             <DataElement key="text" value="R_LVD_Stop_EXLVD">
             </DataElement>
-            <DataElement key="inuse" value="Locked">
+            <DataElement key="inuse" value="Unused">
             </DataElement>
           </SerializableData>
         </SerializableData>
@@ -7372,7 +7372,7 @@
             </DataElement>
             <DataElement key="text" value="r_lvd_vbatinterrupt">
             </DataElement>
-            <DataElement key="inuse" value="Locked">
+            <DataElement key="inuse" value="Unused">
             </DataElement>
           </SerializableData>
           <SerializableData name="r_lvd_vrtcinterrupt">
@@ -7380,7 +7380,7 @@
             </DataElement>
             <DataElement key="text" value="r_lvd_vrtcinterrupt">
             </DataElement>
-            <DataElement key="inuse" value="Locked">
+            <DataElement key="inuse" value="Unused">
             </DataElement>
           </SerializableData>
           <SerializableData name="r_lvd_exlvdinterrupt">
@@ -7388,7 +7388,7 @@
             </DataElement>
             <DataElement key="text" value="r_lvd_exlvdinterrupt">
             </DataElement>
-            <DataElement key="inuse" value="Locked">
+            <DataElement key="inuse" value="Unused">
             </DataElement>
           </SerializableData>
         </SerializableData>
@@ -10231,7 +10231,7 @@
               </DataElement>
               <DataElement key="Attach" value="TauPwmMaster">
               </DataElement>
-              <DataElement key="MutexType" value="NoMutex">
+              <DataElement key="MutexType" value="NoMutex, PinMutex">
               </DataElement>
               <DataElement key="Visible" value="True">
               </DataElement>
@@ -10253,7 +10253,7 @@
               </DataElement>
               <DataElement key="Attach" value="TauOneShotSoftMaster">
               </DataElement>
-              <DataElement key="MutexType" value="NoMutex">
+              <DataElement key="MutexType" value="NoMutex, PinMutex">
               </DataElement>
               <DataElement key="Visible" value="True">
               </DataElement>
@@ -19005,7 +19005,7 @@
               </DataElement>
               <DataElement key="Attach" value="TauPwmMaster">
               </DataElement>
-              <DataElement key="MutexType" value="NoMutex">
+              <DataElement key="MutexType" value="NoMutex, PinMutex">
               </DataElement>
               <DataElement key="Visible" value="True">
               </DataElement>
@@ -19027,7 +19027,7 @@
               </DataElement>
               <DataElement key="Attach" value="TauOneShotSoftMaster">
               </DataElement>
-              <DataElement key="MutexType" value="NoMutex">
+              <DataElement key="MutexType" value="NoMutex, PinMutex">
               </DataElement>
               <DataElement key="Visible" value="True">
               </DataElement>
@@ -29756,452 +29756,6 @@
                   <DataElement key="CustomValid" value="Valid">
                   </DataElement>
                 </SerializableData>
-              </SerializableData>
-            </SerializableData>
-          </SerializableData>
-          <SerializableData name="TauInterval4">
-            <SerializableData name="16bits">
-              <DataElement key="Checked" value="True">
-              </DataElement>
-            </SerializableData>
-            <SerializableData name="High8bits">
-              <DataElement key="Checked" value="False">
-              </DataElement>
-            </SerializableData>
-            <SerializableData name="Low8bits">
-              <DataElement key="Checked" value="False">
-              </DataElement>
-            </SerializableData>
-            <SerializableData name="Both8bits">
-              <DataElement key="Checked" value="False">
-              </DataElement>
-            </SerializableData>
-            <SerializableData name="IntervalValue">
-              <DataElement key="Text" value="100">
-              </DataElement>
-            </SerializableData>
-            <SerializableData name="ValueScale">
-              <DataElement key="ContentItemCount" value="3">
-              </DataElement>
-              <DataElement key="SelectedContentItem" value="us">
-              </DataElement>
-              <SerializableData name="ContentItem1">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="ms">
-                </DataElement>
-                <DataElement key="Text" value="ms">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="ms">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-              <SerializableData name="ContentItem2">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="µs">
-                </DataElement>
-                <DataElement key="Text" value="µs">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="us">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-              <SerializableData name="ContentItem3">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="ns">
-                </DataElement>
-                <DataElement key="Text" value="ns">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="ns">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-            </SerializableData>
-            <SerializableData name="Intervalvalue_High8bits">
-              <DataElement key="Text" value="100">
-              </DataElement>
-            </SerializableData>
-            <SerializableData name="Intervalvalue_High8bits_Scale">
-              <DataElement key="ContentItemCount" value="3">
-              </DataElement>
-              <DataElement key="SelectedContentItem" value="high_us">
-              </DataElement>
-              <SerializableData name="ContentItem1">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="high_ms">
-                </DataElement>
-                <DataElement key="Text" value="ms">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="high_ms">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-              <SerializableData name="ContentItem2">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="high_µs">
-                </DataElement>
-                <DataElement key="Text" value="µs">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="high_us">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-              <SerializableData name="ContentItem3">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="high_ns">
-                </DataElement>
-                <DataElement key="Text" value="ns">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="high_ns">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-            </SerializableData>
-            <SerializableData name="Intervalvalue_Low8bits">
-              <DataElement key="Text" value="100">
-              </DataElement>
-            </SerializableData>
-            <SerializableData name="Intervalvalue_Low8bits_Scale">
-              <DataElement key="ContentItemCount" value="3">
-              </DataElement>
-              <DataElement key="SelectedContentItem" value="low_us">
-              </DataElement>
-              <SerializableData name="ContentItem1">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="low_ms">
-                </DataElement>
-                <DataElement key="Text" value="ms">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="low_ms">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-              <SerializableData name="ContentItem2">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="low_µs">
-                </DataElement>
-                <DataElement key="Text" value="µs">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="low_us">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-              <SerializableData name="ContentItem3">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="low_ns">
-                </DataElement>
-                <DataElement key="Text" value="ns">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="low_ns">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-            </SerializableData>
-            <SerializableData name="GenerateInterrupt">
-              <DataElement key="Checked" value="False">
-              </DataElement>
-            </SerializableData>
-            <SerializableData name="Interrupt">
-              <DataElement key="Checked" value="True">
-              </DataElement>
-            </SerializableData>
-            <SerializableData name="Interrupt priority">
-              <DataElement key="ContentItemCount" value="4">
-              </DataElement>
-              <DataElement key="SelectedContentItem" value="low">
-              </DataElement>
-              <SerializableData name="ContentItem1">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="TAU_INTTM0_PRIORITY=High">
-                </DataElement>
-                <DataElement key="Text" value="High">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="High">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-              <SerializableData name="ContentItem2">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="TAU_INTTM0_PRIORITY=Level1">
-                </DataElement>
-                <DataElement key="Text" value="Level 1">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="Level1">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-              <SerializableData name="ContentItem3">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="TAU_INTTM0_PRIORITY=Level2">
-                </DataElement>
-                <DataElement key="Text" value="Level 2">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="Level2">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-              <SerializableData name="ContentItem4">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="TAU_INTTM0_PRIORITY=Low">
-                </DataElement>
-                <DataElement key="Text" value="Low">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="low">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-            </SerializableData>
-            <SerializableData name="InterruptH8">
-              <DataElement key="Checked" value="True">
-              </DataElement>
-            </SerializableData>
-            <SerializableData name="InterruptH priority">
-              <DataElement key="ContentItemCount" value="4">
-              </DataElement>
-              <DataElement key="SelectedContentItem" value="Low">
-              </DataElement>
-              <SerializableData name="ContentItem1">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="TAU_INTTM0H_PRIORITY=High">
-                </DataElement>
-                <DataElement key="Text" value="High">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="High">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-              <SerializableData name="ContentItem2">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="TAU_INTTM0H_PRIORITY=Level1">
-                </DataElement>
-                <DataElement key="Text" value="Level 1">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="Level1">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-              <SerializableData name="ContentItem3">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="TAU_INTTM0H_PRIORITY=Level2">
-                </DataElement>
-                <DataElement key="Text" value="Level 2">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="Level2">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
-              </SerializableData>
-              <SerializableData name="ContentItem4">
-                <DataElement key="Pin" value="">
-                </DataElement>
-                <DataElement key="Int" value="">
-                </DataElement>
-                <DataElement key="Fun" value="">
-                </DataElement>
-                <DataElement key="Tag" value="TAU_INTTM0H_PRIORITY=Low">
-                </DataElement>
-                <DataElement key="Text" value="Low">
-                </DataElement>
-                <DataElement key="CustomInValidMessage" value="">
-                </DataElement>
-                <DataElement key="Attach" value="Low">
-                </DataElement>
-                <DataElement key="MutexType" value="NoMutex">
-                </DataElement>
-                <DataElement key="Visible" value="True">
-                </DataElement>
-                <DataElement key="CustomValid" value="Valid">
-                </DataElement>
               </SerializableData>
             </SerializableData>
           </SerializableData>
@@ -67239,7 +66793,7 @@
     <SerializableData name="RL78I1C_LVD">
       <SerializableData name="LVD">
         <SerializableData name="chkVoltage">
-          <DataElement key="Checked" value="True">
+          <DataElement key="Checked" value="False">
           </DataElement>
         </SerializableData>
         <SerializableData name="LVD_MODE_RESET">
@@ -68309,7 +67863,7 @@
         <SerializableData name="cmbVDDvoltage">
           <DataElement key="ContentItemCount" value="6">
           </DataElement>
-          <DataElement key="SelectedContentItem" value="2.47">
+          <DataElement key="SelectedContentItem" value="2.68">
           </DataElement>
           <SerializableData name="ContentItem1">
             <DataElement key="Pin" value="">
@@ -68539,7 +68093,7 @@
           </SerializableData>
         </SerializableData>
         <SerializableData name="chkVBAT">
-          <DataElement key="Checked" value="True">
+          <DataElement key="Checked" value="False">
           </DataElement>
         </SerializableData>
         <SerializableData name="cmbVBATvoltage">
@@ -68797,7 +68351,7 @@
           </SerializableData>
         </SerializableData>
         <SerializableData name="chkVRTC">
-          <DataElement key="Checked" value="True">
+          <DataElement key="Checked" value="False">
           </DataElement>
         </SerializableData>
         <SerializableData name="cmbVRTCvoltage">
@@ -68989,7 +68543,7 @@
           </SerializableData>
         </SerializableData>
         <SerializableData name="chkEXLVD">
-          <DataElement key="Checked" value="True">
+          <DataElement key="Checked" value="False">
           </DataElement>
         </SerializableData>
         <SerializableData name="txtEXLVDvoltage">
@@ -70720,7 +70274,7 @@
           <SerializableData name="ClassContent">
             <DataElement key="FunctionName" value="EXLVD">
             </DataElement>
-            <DataElement key="InUse" value="True">
+            <DataElement key="InUse" value="False">
             </DataElement>
             <DataElement key="FunctionIO" value="I">
             </DataElement>
@@ -70728,12 +70282,6 @@
             </DataElement>
             <DataElement key="FunctionNote" value="">
             </DataElement>
-            <SerializableData name="InUsePins">
-              <SerializableData name="CG">
-                <DataElement key="0" value="62">
-                </DataElement>
-              </SerializableData>
-            </SerializableData>
           </SerializableData>
         </SerializableData>
         <SerializableData name="LVDVBAT">
@@ -76652,7 +76200,7 @@
           <SerializableData name="ClassContent">
             <DataElement key="PinNumber" value="62">
             </DataElement>
-            <DataElement key="InUse" value="True">
+            <DataElement key="InUse" value="False">
             </DataElement>
             <DataElement key="PinNote" value="">
             </DataElement>
@@ -76666,10 +76214,6 @@
             </DataElement>
             <DataElement key="PinDlvDirty" value="False">
             </DataElement>
-            <SerializableData name="InUseFunctions">
-              <DataElement key="0" value="EXLVD">
-              </DataElement>
-            </SerializableData>
           </SerializableData>
         </SerializableData>
         <SerializableData name="63">
